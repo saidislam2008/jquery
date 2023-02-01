@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 75vh;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+#btn {
+    background-color: cyan;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+}
